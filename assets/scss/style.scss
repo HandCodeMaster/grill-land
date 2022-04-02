@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+@import 'animate.css';
+
+@import "./variables";
+@import "./header";
+@import "./about";
+@import "./services";
+@import "./galery";
+@import "./contact";
+@import "./footer";
+@import "mediaquries";
+
+body{
+    scrollbar-width: thin;          
+  scrollbar-color: $bg-color $color-text; 
+}
+body::-webkit-scrollbar {
+    width: 12px;
+  
+}
+
+body::-webkit-scrollbar-track {
+    background: $color-text; 
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: $bg-color; 
+    border-radius: 20px; 
+    border: 3px solid rgb(55, 55, 55); 
+}

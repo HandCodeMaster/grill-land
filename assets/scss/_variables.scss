@@ -1,0 +1,32 @@
+/*VARIABLES*/
+
+$bg-color: #c53100;
+$bg-color-hover: #e03800;
+$color-text: #eee;
+
+$transition: .3s;
+
+$title-font:  'PT Sans Narrow', sans-serif;
+$font-text: 'Roboto', sans-serif;
+
+
+.boton{
+    width: max-content;
+    display: inline-block;
+    color: $bg-color;
+    font-size: 1rem;
+    padding: 0.75em 1.2rem;
+    border-radius: 0.4rem;
+    border: 1px solid $bg-color;
+    transition: $transition;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover{
+        background-color: $color-text;
+        color: $bg-color;
+        border-color: transparent;
+    }
+}
+
+
